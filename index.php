@@ -20,7 +20,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/common.css?<?= date() ?>" rel="stylesheet">
+    <link href="css/common.css?<?= time() ?>" rel="stylesheet">
 </head>
 <body>
 
@@ -29,7 +29,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
         <div class="container">
             <a class="navbar-brand" href="/">Container</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -45,7 +46,8 @@
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown"
+                           aria-expanded="false">Dropdown</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown07">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -63,8 +65,8 @@
 
 <!-- MAIN -->
 <main>
-    <div class="container">
-
+    <div class="container py-4">
+        
     </div>
 </main>
 
@@ -75,6 +77,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js?<?= date() ?>"></script>
+<script type="text/javascript" src="js/main.js?<?= time() ?>"></script>
 </body>
 </html>
