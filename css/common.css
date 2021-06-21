@@ -1,1 +1,18 @@
+* {
+    font-family: "Roboto";
+}
 
+button {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+input {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
