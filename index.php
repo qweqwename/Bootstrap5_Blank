@@ -10,6 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
+
     <title>Bootstrap 5</title>
 
     <!-- Bootstrap core CSS -->
@@ -27,7 +28,9 @@
 
 <!-- MAIN -->
 <main>
-
+    <div class="container">
+        
+    </div>
 </main>
 
 <!-- FOOTER -->
