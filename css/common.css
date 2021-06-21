@@ -2,6 +2,11 @@
     font-family: "Roboto";
 }
 
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
 button {
     box-shadow: none !important;
     outline: none !important;
